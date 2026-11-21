@@ -7,8 +7,8 @@ bool processVectors(std::vector<int> arrfs, std::vector<int> arrsc) //сравн
     int num=0;
     int truthPoints=0;
     std::vector<int> truth_vec{};
-    
-    for(int i=0;i<std::size(arrsc);i++)
+
+    for(int i=0;i<std::size(arrfs)-std::size(arrsc)+1;i++)
     {
         for(int k=0;k<std::size(arrsc);k++)
         {
